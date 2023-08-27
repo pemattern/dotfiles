@@ -1,0 +1,23 @@
+configuration {
+	modi: "drun";
+  font: "JetBrainsMono NF 32";
+	show-icons: true;
+  icon-theme: "Numix Circle" ;
+
+  timeout {
+    action: "kb-cancel";
+    delay:  0;
+  }
+
+  filebrowser {
+    directories-first: true;
+    sorting-method:    "name";
+  }
+}
+
+textbox-prompt-colon {
+  str: " ";
+}
+prompt {
+  enabled: false;
+}
