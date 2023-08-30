@@ -8,6 +8,8 @@ super + F3
 super + F2
   pactl set-sink-volume 0 -5%
 
+super + F1
+  pactl set-sink-mute 0 toggle
 # MOVE TO NEXT DESKTOP
 super + {Left,Right} 
     bspc node -d {prev,next}.local --follow;
@@ -18,11 +20,11 @@ super + {Left,Right}
 #
 
 # terminal emulator
-super + Return
+super + w
 	alacritty
 
 # program launcher
-super + alt + Return
+super + s
 	rofi -show drun
 
 # make sxhkd reload its configuration files:
@@ -38,7 +40,7 @@ super + alt + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
-super + {_,shift + }w
+super + {_,shift + }q
 	bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
