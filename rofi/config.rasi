@@ -1,8 +1,8 @@
 configuration {
 	modi: "drun";
-  font: "JetBrainsMono NF 32";
+  font: "JetBrainsMono NFM 32";
 	show-icons: true;
-  icon-theme: "Numix Circle" ;
+  icon-theme: "Qogir" ;
 
   timeout {
     action: "kb-cancel";
