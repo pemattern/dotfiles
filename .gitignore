@@ -1,0 +1,11 @@
+*
+!alacritty/
+!bspwm/
+!neofetch/
+!nvim/
+!picom/
+!polybar/
+!ranger/
+!rofi/
+!sxhkd/
+!starship.toml
