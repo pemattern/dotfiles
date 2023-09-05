@@ -1,13 +1,13 @@
 format = """
-[](#282a2e)\
+[█](#282a2e)\
 $os\
 $username\
-[](bg:#373b41 fg:#282a2e)\
+[](bg:#373b41 fg:#282a2e)\
 $directory\
-[](fg:#373b41 bg:#707880)\
+[](fg:#373b41 bg:#707880)\
 $git_branch\
 $git_status\
-[](fg:#707880 bg:#c5c8c6)\
+[](fg:#707880 bg:#c5c8c6)\
 $c\
 $elixir\
 $elm\
@@ -20,11 +20,11 @@ $nodejs\
 $nim\
 $rust\
 $scala\
-[](fg:#c5c8c6 bg:#81a2be)\
+[](fg:#c5c8c6 bg:#81a2be)\
 $docker_context\
-[](fg:#81a2be bg:#5f819d)\
+[](fg:#81a2be bg:#5f819d)\
 $time\
-[ ](fg:#5f819d)\
+[ ](fg:#5f819d)\
 """
 
 # Disable the blank line at the start of the prompt
@@ -86,11 +86,11 @@ format = '[ $symbol ($version) ]($style)'
 
 [git_branch]
 symbol = ""
-style = "bg:#c5c8c6 fg:#707880"
+style = "bg:#707880 fg:#c5c8c6"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:#c5c8c6 fg:#707880"
+style = "bg:#707880 fg:#c5c8c6"
 format = '[$all_status$ahead_behind ]($style)'
 
 [golang]
