@@ -3,10 +3,10 @@
 killall -q polybar
 
 pgrep -x sxhkd > /dev/null || sxhkd &
-#picom --experimental-backends -b &
-picom -b &
+picom --experimental-backends -b &
 polybar &
-~/.fehbg
+feh --bg-fill ~/Wallpapers/purp.jpg &
+xsetroot -cursor_name left_ptr
 
 bspc monitor -d     
 

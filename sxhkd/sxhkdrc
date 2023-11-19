@@ -1,4 +1,12 @@
 # CUSTOM
+## SCREEN BRIGHTNESS
+
+super + F5
+	cright intel_backlight reduce 100
+
+super + F6
+	cright intel_backlight add 100
+
 
 ## VOLUME
 
@@ -24,7 +32,7 @@ super + w
 	alacritty
 
 # program launcher
-super + s
+super + Tab
 	rofi -show drun
 
 # make sxhkd reload its configuration files:
@@ -88,7 +96,7 @@ super + bracket{left,right}
 	bspc desktop -f {prev,next}.local
 
 # focus the last node/desktop
-super + {grave,Tab}
+super + grave
 	bspc {node,desktop} -f last
 
 # focus the older or newer node in the focus history

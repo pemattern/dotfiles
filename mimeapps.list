@@ -1,25 +1,25 @@
 [Default Applications]
-text/html=userapp-Firefox-M69W91.desktop
-x-scheme-handler/http=userapp-Firefox-M69W91.desktop
-x-scheme-handler/https=userapp-Firefox-M69W91.desktop
+text/html=firefox-esr.desktop
+x-scheme-handler/http=firefox-esr.desktop
+x-scheme-handler/https=firefox-esr.desktop
 x-scheme-handler/about=google-chrome.desktop
 x-scheme-handler/unknown=google-chrome.desktop
-x-scheme-handler/chrome=userapp-Firefox-M69W91.desktop
-application/x-extension-htm=userapp-Firefox-M69W91.desktop
-application/x-extension-html=userapp-Firefox-M69W91.desktop
-application/x-extension-shtml=userapp-Firefox-M69W91.desktop
-application/xhtml+xml=userapp-Firefox-M69W91.desktop
-application/x-extension-xhtml=userapp-Firefox-M69W91.desktop
-application/x-extension-xht=userapp-Firefox-M69W91.desktop
+x-scheme-handler/chrome=firefox-esr.desktop
+application/x-extension-htm=firefox-esr.desktop
+application/x-extension-html=firefox-esr.desktop
+application/x-extension-shtml=firefox-esr.desktop
+application/xhtml+xml=firefox-esr.desktop
+application/x-extension-xhtml=firefox-esr.desktop
+application/x-extension-xht=firefox-esr.desktop
 
 [Added Associations]
-x-scheme-handler/http=userapp-Firefox-M69W91.desktop;
-x-scheme-handler/https=userapp-Firefox-M69W91.desktop;
-x-scheme-handler/chrome=userapp-Firefox-M69W91.desktop;
-text/html=userapp-Firefox-M69W91.desktop;
-application/x-extension-htm=userapp-Firefox-M69W91.desktop;
-application/x-extension-html=userapp-Firefox-M69W91.desktop;
-application/x-extension-shtml=userapp-Firefox-M69W91.desktop;
-application/xhtml+xml=userapp-Firefox-M69W91.desktop;
-application/x-extension-xhtml=userapp-Firefox-M69W91.desktop;
-application/x-extension-xht=userapp-Firefox-M69W91.desktop;
+x-scheme-handler/http=userapp-Firefox-M69W91.desktop;firefox-esr.desktop;
+x-scheme-handler/https=userapp-Firefox-M69W91.desktop;firefox-esr.desktop;
+x-scheme-handler/chrome=userapp-Firefox-M69W91.desktop;firefox-esr.desktop;
+text/html=userapp-Firefox-M69W91.desktop;firefox-esr.desktop;
+application/x-extension-htm=userapp-Firefox-M69W91.desktop;firefox-esr.desktop;
+application/x-extension-html=userapp-Firefox-M69W91.desktop;firefox-esr.desktop;
+application/x-extension-shtml=userapp-Firefox-M69W91.desktop;firefox-esr.desktop;
+application/xhtml+xml=userapp-Firefox-M69W91.desktop;firefox-esr.desktop;
+application/x-extension-xhtml=userapp-Firefox-M69W91.desktop;firefox-esr.desktop;
+application/x-extension-xht=userapp-Firefox-M69W91.desktop;firefox-esr.desktop;

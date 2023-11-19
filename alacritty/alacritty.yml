@@ -17,6 +17,9 @@ font:
 
 window:
   opacity: 0.3
+  dimensions:
+    columns: 0
+    rows: 0
 
 colors:
   primary:
