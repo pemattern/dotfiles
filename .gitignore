@@ -1,5 +1,4 @@
-*
+/*
 
-!.gitignore
-!/helix/
-!/ghostty/
+!helix/
+!ghostty/

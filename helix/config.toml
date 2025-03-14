@@ -1,0 +1,41 @@
+theme = "nord"
+
+[editor]
+line-number = "relative"
+cursorline = true
+popup-border = "none"
+end-of-line-diagnostics = "hint"
+
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.indent-guides]
+render = true
+character = "▏"
+skip-levels = 0
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+
+[editor.statusline]
+left = ["mode", "spinner", "version-control", "file-name"]
+
+[keys.insert]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+pageup = "no_op"
+pagedown = "no_op"
+home = "no_op"
+end = "no_op"
+
+[keys.normal]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+pageup = "no_op"
+pagedown = "no_op"
+home = "no_op"
+end = "no_op"

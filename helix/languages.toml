@@ -1,0 +1,27 @@
+[language-server.rust-analyzer.config]
+check.command = "clippy"
+
+# npm install -g typescript tyepscript-language-server prettier vscode-langservers-extracted
+[[language]]
+name = "typescript"
+language-servers = [ "typescript-language-server", "vscode-eslint-language-server"]
+formatter = { command = "npx", args = ["prettier", "--parser", "typescript"] }
+auto-format = true
+ 
+[[language]]
+name = "tsx"
+language-servers = [ "typescript-language-server", "vscode-eslint-language-server"]
+formatter = { command = "npx", args = ["prettier", "--parser", "typescript"] }
+auto-format = true
+ 
+[[language]]
+name = "jsx"
+language-servers = [ "typescript-language-server", "vscode-eslint-language-server"]
+formatter = { command = "npx", args = ["prettier", "--parser", "javascript"] }
+auto-format = true
+ 
+[[language]]
+name = "javascript"
+language-servers = [ "typescript-language-server", "vscode-eslint-language-server"]
+formatter = { command = "npx", args = ["prettier", "--parser", "javascript"] }
+auto-format = true
