@@ -10,6 +10,9 @@ color-modes = true
 [editor.soft-wrap]
 enable = true
 
+[editor.file-picker]
+hidden = false
+
 [editor.lsp]
 display-inlay-hints = true
 
