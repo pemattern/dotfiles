@@ -11,7 +11,7 @@ auto-format = true
 formatter = { command = "taplo", args = ["fmt", "-"] }
 language-servers = ["taplo"]
 
-# pacman -S bash-language-server shfmt
+# pacman -S bash-language-server shfmt shellcheck
 [[language]]
 name = "bash"
 auto-format = true
