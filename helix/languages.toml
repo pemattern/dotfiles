@@ -1,6 +1,38 @@
 [language-server.rust-analyzer.config]
 check.command = "clippy"
 
+# pacman -S taplo
+[[language]]
+name = "toml"
+scope = "source.toml"
+file-types = ["toml"]
+roots = ["Cargo.toml"]
+auto-format = true
+formatter = { command = "taplo", args = ["fmt", "-"] }
+language-servers = ["taplo"]
+
+# pacman -S bash-language-server shfmt
+[[language]]
+name = "bash"
+scope = "source.shell"
+injection-regex = "^(bash|sh|shell)$"
+file-types = [
+  "sh",
+  "bash",
+  ".bashrc",
+  ".bash_profile",
+  ".bash_login",
+  ".bash_logout",
+  ".profile",
+]
+shebangs = ["bash", "sh"]
+roots = []
+auto-format = true
+language-servers = ["bash-language-server"]
+formatter = { command = "shfmt", args = ["-i", "2", "-bn", "-ci", "-sr"] }
+diagnostic-severity = "warning"
+
+
 # npm install -g typescript tyepscript-language-server prettier vscode-langservers-extracted
 [[language]]
 name = "typescript"
