@@ -4,12 +4,8 @@ check.command = "clippy"
 # pacman -S taplo
 [[language]]
 name = "toml"
-scope = "source.toml"
-file-types = ["toml"]
-roots = ["Cargo.toml"]
 auto-format = true
 formatter = { command = "taplo", args = ["fmt", "-"] }
-language-servers = ["taplo"]
 
 # pacman -S bash-language-server shfmt shellcheck
 [[language]]
