@@ -1,4 +1,5 @@
 theme = "nord"
+confirm-close-surface = false
 
 # turns off ligatures
 font-feature = -calt, -liga, -dlig
