@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# install pacman packages
+sudo pacman -S curl firefox ghostty helix wget
+
 # Rust toolchain setup
 # install rustup
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
