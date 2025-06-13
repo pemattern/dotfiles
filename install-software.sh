@@ -1,7 +1,16 @@
 #!/bin/bash
 
 # install pacman packages
-sudo pacman -S --no-confirm bash-language-server curl firefox flatpak ghostty git helix shellcheck shfmt spotify taplo ttf-jetbrains-mono-nerd wget
+sudo pacman -Syu --no-confirm bash-language-server curl firefox flatpak ghostty git github-cli helix shellcheck shfmt spotify taplo ttf-jetbrains-mono-nerd wget
+
+# set default browser
+xdg-settings set default-web-browser firefox.desktop
+
+# generate ssh-key
+ssh-keygen -t ed25519
+
+# login to github
+gh auth login
 
 # install flatpak packages
 flatpak install -y discord obs
