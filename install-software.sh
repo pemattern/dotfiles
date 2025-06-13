@@ -9,6 +9,14 @@ xdg-settings set default-web-browser firefox.desktop
 # generate ssh-key
 ssh-keygen -t ed25519
 
+# Prompt for name
+read -p "Enter your Git user name: " git_name
+# Prompt for email
+read -p "Enter your Git email address: " git_email
+# Apply git configuration
+git config --global user.name "$git_name"
+git config --global user.email "$git_email"
+
 # login to github
 gh auth login
 
