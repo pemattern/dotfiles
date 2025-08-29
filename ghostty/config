@@ -1,6 +1,9 @@
 theme = "nord"
 confirm-close-surface = false
 
+# Pixel Font
+# font-family = "DepartureMono Nerd Font Mono"
+
 # turns off ligatures
 font-feature = -calt, -liga, -dlig
 
