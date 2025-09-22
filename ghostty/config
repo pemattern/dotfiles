@@ -1,4 +1,4 @@
-theme = "nord"
+theme = Nord
 confirm-close-surface = false
 
 # Pixel Font
