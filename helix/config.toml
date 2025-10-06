@@ -6,6 +6,7 @@ cursorline = true
 popup-border = "none"
 end-of-line-diagnostics = "hint"
 color-modes = true
+# rainbow-brackets = true
 
 [editor.soft-wrap]
 enable = true
