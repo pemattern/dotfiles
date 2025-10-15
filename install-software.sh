@@ -23,6 +23,9 @@ gh auth login
 
 # start/enable docker
 sudo systemctl enable --now docker.service
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
 
 # install flatpak packages
 flatpak install -y discord obs
