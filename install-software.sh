@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install pacman packages
-sudo pacman -Syu --noconfirm bash-language-server curl firefox flatpak ghostty git github-cli helix shellcheck shfmt spotify-launcher tombi ttf-jetbrains-mono-nerd wget
+sudo pacman -Syu --noconfirm bash-language-server curl docker docker-compose firefox flatpak ghostty git github-cli helix shellcheck shfmt spotify-launcher tombi ttf-jetbrains-mono-nerd wget
 
 # set default browser
 xdg-settings set default-web-browser firefox.desktop
@@ -13,12 +13,16 @@ ssh-keygen -t ed25519
 read -p "Enter your Git user name: " git_name
 # Prompt for email
 read -p "Enter your Git email address: " git_email
+
 # Apply git configuration
 git config --global user.name "$git_name"
 git config --global user.email "$git_email"
 
 # login to github
 gh auth login
+
+# start/enable docker
+sudo systemctl enable --now docker.service
 
 # install flatpak packages
 flatpak install -y discord obs
