@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install pacman packages
-sudo pacman -Syu --noconfirm bash-language-server curl docker docker-compose firefox flatpak ghostty git github-cli helix shellcheck shfmt spotify-launcher tombi ttf-jetbrains-mono-nerd wget
+sudo pacman -Syu --noconfirm bash-language-server curl docker docker-compose docker-buildx firefox flatpak ghostty git github-cli helix shellcheck shfmt spotify-launcher tombi ttf-jetbrains-mono-nerd wget
 
 # set default browser
 xdg-settings set default-web-browser firefox.desktop
