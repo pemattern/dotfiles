@@ -10,6 +10,18 @@ name = "bash"
 auto-format = true
 
 [[language]]
+name = "markdown"
+auto-format = true
+formatter = { command = "prettier", args = [
+  "--stdin-filepath",
+  "%{buffer_name}",
+  "--print-width",
+  "80",
+  "--prose-wrap",
+  "always",
+] }
+
+[[language]]
 name = "typescript"
 language-servers = [
   "typescript-language-server",
