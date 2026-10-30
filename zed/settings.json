@@ -7,6 +7,55 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "languages": {
+    "TypeScript": {
+      "format_on_save": "on",
+      "formatter": {
+        "external": {
+          "command": "npx",
+          "arguments": [
+            "prettier",
+            "--stdin-filepath",
+            "{buffer_path}"
+          ]
+        }
+      }
+    },
+    "TSX": {
+      "format_on_save": "on",
+      "formatter": {
+        "external": {
+          "command": "npx",
+          "arguments": [
+            "prettier",
+            "--stdin-filepath",
+            "{buffer_path}"
+          ]
+        }
+      }
+    },
+    "Svelte": {
+      "format_on_save": "on",
+      "formatter": {
+        "external": {
+          "command": "npx",
+          "arguments": [
+            "prettier",
+            "--stdin-filepath",
+            "{buffer_path}"
+          ]
+        }
+      },
+    },
+    "CSS": {
+      "language_servers": [
+        "tailwindcss-intellisense-css",
+        "!vscode-css-language-server",
+        "..."
+      ]
+    }
+  },
+  "relative_line_numbers": "enabled",
   "buffer_font_family": "JetBrainsMonoNL Nerd Font Mono",
   "helix_mode": true,
   "cli_default_open_behavior": "existing_window",
